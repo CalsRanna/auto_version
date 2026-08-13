@@ -1,9 +1,9 @@
 import 'package:args/command_runner.dart';
-import 'package:bump/build_command.dart';
-import 'package:bump/major_command.dart';
-import 'package:bump/minor_command.dart';
-import 'package:bump/patch_command.dart';
-import 'package:bump/version_command.dart';
+import 'package:auto_version/build_command.dart';
+import 'package:auto_version/major_command.dart';
+import 'package:auto_version/minor_command.dart';
+import 'package:auto_version/patch_command.dart';
+import 'package:auto_version/version_command.dart';
 
 Future<void> main(List<String> arguments) async {
   var executable = 'bump';

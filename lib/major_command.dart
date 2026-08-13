@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:args/command_runner.dart';
-import 'package:bump/util/version_util.dart';
+import 'package:auto_version/util/version_util.dart';
 import 'package:yaml_edit/yaml_edit.dart';
 
 class MajorCommand extends Command {

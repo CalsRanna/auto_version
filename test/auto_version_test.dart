@@ -1,4 +1,4 @@
-import 'package:bump/bump.dart';
+import 'package:auto_version/auto_version.dart';
 import 'package:test/test.dart';
 
 void main() {

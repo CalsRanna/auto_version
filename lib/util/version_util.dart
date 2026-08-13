@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:bump/model/semantic_version.dart';
+import 'package:auto_version/model/semantic_version.dart';
 import 'package:yaml/yaml.dart';
 
 class VersionUtil {
