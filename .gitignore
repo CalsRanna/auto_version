@@ -4,4 +4,7 @@
 build/
 
 # macOS
-.DS_Storedist/
+.DS_Store
+
+# tapster distribution output
+dist/
