@@ -9,12 +9,34 @@ A Dart command-line interface for semantic version management of Flutter/Dart pr
 - 🛠️ Supports both manual version setting and auto-increment
 
 ## Installation
+
+### macOS (Homebrew)
+
 ```bash
 # Add the tap repository
-brew tap calsranna/inspire
+brew tap CalsRanna/tap
 
 # Install the CLI
-brew install calsranna/inspire/bump
+brew install bump
+```
+
+### Windows (Scoop)
+
+```powershell
+# Add the bucket repository
+scoop bucket add scoop-bucket https://github.com/CalsRanna/scoop-bucket
+
+# Install the CLI
+scoop install bump
+```
+
+### Build from Source
+
+```bash
+git clone https://github.com/CalsRanna/auto_version.git
+cd auto_version
+dart pub get
+dart compile exe bin/bump.dart -o bump -DAPP_VERSION="$(grep '^version:' pubspec.yaml | awk '{print $2}')"
 ```
 
 ## Usage
